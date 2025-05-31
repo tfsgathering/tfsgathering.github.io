@@ -1,0 +1,57 @@
+@import url("fonts.css");
+
+:root {
+	--font-rm: "Merriweather";
+	--font-sf: "Merriweather Sans";
+	--col-bg: #BFBFBF;
+	--col-fg: black;
+	--col-hl: #bdf1ff
+}
+
+*,
+*::before
+*::after {
+	box-sizing: border-box
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 900px;
+	margin: auto
+}
+
+body {
+	font-family: var(--font-rm);
+	font-weight: 400;
+
+	background-image: url('../media/topbg.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	background-color: var(--col-bg)
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-family: var(--font-sf);
+	font-weight: 400
+}
+
+nav ul li {
+	display: inline-block;
+	margin-inline: 10px
+}
+
+.hero {
+	font-family: var(--font-sf);
+	font-weight: 700;
+	margin: 30px 0
+}
+
+footer {
+	font-family: var(--font-sf)
+}
