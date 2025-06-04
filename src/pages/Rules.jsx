@@ -1,7 +1,13 @@
+import Banner from "../components/Banner";
+
+
 function Rules() {
 	return (
 		<>
 
+		<Banner
+		path="img/banner_rules.png" />
+		
 		<p>Since <strong>TFS Gathering</strong> is a community server, and since making this place a joy is at priority, it is important to define a set of rules and guidelines that everyone must abide by. Upon sending your first message in the server, or adding your first reaction to any message in the server (whichever happens earlier), you thereby agree to accept all of the rules listed in this web page.</p>
 
 		<p><strong>1&nbsp;&nbsp;Discord Terms.&mdash;</strong> Discord TOS: <a href="https://discord.com/terms">discord.com/terms</a> and Community Guidelines: <a href="https://discord.com/guidelines">discord.com/guidelines</a> shall foremost be followed.</p>
@@ -14,7 +20,7 @@ function Rules() {
 
 		<p><strong>5&nbsp;&nbsp;Medium.&mdash;</strong> This is an international server with people from all over the world. Hence, all conversations shall primarily be in the English language.</p>
 
-		<p><strong>6&nbsp;&nbsp;Miscellaneous.&mdash;</strong> No unsolicited advertisements†; no spamming.</p>
+		<p><strong>6&nbsp;&nbsp;Miscellaneous.&mdash;</strong> No unsolicited advertisements; no spamming.</p>
 
 		<p>Contact someone with the <strong>@Control Tower</strong> role whenever in doubt. &#8718;</p>
 

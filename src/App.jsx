@@ -12,7 +12,7 @@ import Join from "./pages/Join";
 
 function App() {
 	return (
-		<body className="wrapper">
+		<div className="wrapper">
 		<Router>
 		<NavBar />
 		<Routes>
@@ -23,7 +23,7 @@ function App() {
 		</Routes>
 		<Footer />
 		</Router>
-		</body>
+		</div>
 	)
 }
 

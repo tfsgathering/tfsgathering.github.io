@@ -5,8 +5,7 @@ function Navbar() {
 		<nav>
 		<img
 		src="img/plane_blue.png"
-		alt="Plane in logo of TFS Gathering" 
-		height="100px" />
+		alt="Plane in logo of TFS Gathering" />
 		<ul>
 		<li><Link to="/">Home</Link></li>
 		<li><Link to="/rules">Rules</Link></li>
