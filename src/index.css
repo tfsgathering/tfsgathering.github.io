@@ -16,10 +16,9 @@
 }
 
 .wrapper {
-	width: 100%;
 	max-width: 900px;
 	margin: auto;
-	padding: 0 15px
+	padding: 0 10px
 }
 
 body {
@@ -49,7 +48,7 @@ nav img {
 
 nav ul li {
 	display: inline-block;
-	margin-inline: 10px
+	margin-inline: 6px
 }
 
 .hero {
@@ -104,7 +103,7 @@ h2 {
 	font-size: smaller
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.change__card {
 		display: block;
 		margin: 30px 0
@@ -114,6 +113,9 @@ h2 {
 		text-align: left;
 		margin-bottom: 4px
 	}
+}
+
+@media (max-width: 500px) {
 	nav img {
 		height: 70px
 	}
@@ -123,5 +125,39 @@ h2 {
 }
 
 footer {
-	font-family: var(--font-sf)
+	font-family: var(--font-sf);
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-size: smaller;
+}
+
+.blocks {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+
+.block {
+	margin: 6px 0
+}
+
+.block ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.block ul li {
+	margin: 4px 0
+}
+
+.block__main {
+	max-width: 500px;
+	margin-top: 25px;
+	margin-bottom: 15px
+}
+
+.block__title {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 4px
 }

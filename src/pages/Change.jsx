@@ -8,6 +8,12 @@ function Change() {
 		
 		<Banner
 		path="img/banner_changelog.png" />
+
+		<ChangeEntry
+		date="23 December, 2024"
+		head="TFS Gathering starts working on the Handbook">
+		The development of Handbook of Turboprop Flight Simulator has begun in the server. In its final form, this handbook will be a compilation of various aspects of the game, created through the collaborative efforts of players interested in contributing.
+		</ChangeEntry>
 		
 		<ChangeEntry
 		date="28 May, 2024"
